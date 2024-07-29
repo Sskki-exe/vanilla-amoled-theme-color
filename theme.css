@@ -16,10 +16,25 @@
 	--background-secondary: var(--color-base-05);
 	--titlebar-background: var(--color-base-00);
 	--titlebar-background-focused: var(--color-base-10);
-}
 
+    --red_x:    191,97,106; /* #bf616a */
+    --red:      rgb(var(--red_x));
+    --orange_x: 208,135,112; /* #d08770 */
+    --orange:   rgb(var(--orange_x));
+    --yellow_x: 235,203,139; /* #ebcb8b */
+    --yellow:   rgb(var(--yellow_x));
+    --green_x:  163,190,140; /* #a3be8c */
+    --green:    rgb(var(--green_x));
+    --purple_x: 180,142,173; /* #b48ead */
+    --purple:   rgb(var(--purple_x));
+    --frost0_x: 143,188,187; /* #8fbcbb */
+    --frost0:   rgb(var(--frost0_x));
+    --frost2_x: 129,161,193; /* #81a1c1 */
+    --frost2:   rgb(var(--frost2_x));
 
-/*
-	No, seriously, that's as simple as it gets.
-	  - Sakura
-*/
+    --h1-color:                      var(--red);
+    --h2-color:                      var(--yellow);
+    --h3-color:                      var(--green);
+    --h4-color:                      var(--purple);
+    --h5-color:                      var(--frost0);
+    --h6-color:                      var(--frost2);
