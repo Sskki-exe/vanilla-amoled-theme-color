@@ -38,3 +38,12 @@
     --h4-color:                      var(--purple);
     --h5-color:                      var(--frost0);
     --h6-color:                      var(--frost2);
+}
+
+.cm-s-obsidian .cm-table-widget th {
+    font-weight:normal;
+}
+
+.cm-line:has(+ .cm-embed-block.cm-table-widget) br {
+  display: none;
+}
